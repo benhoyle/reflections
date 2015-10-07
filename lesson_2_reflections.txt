@@ -21,3 +21,14 @@ You can use 'git add' to only add files to the staging area that are related
 to the logical change. Files that are not related to the logical change may
 be left out of the staging area but may still be changed in the working
 directory.
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+- Adding experimental features (you can break things but still have a 
+working master);
+- Refactoring code (things are likely to go wrong, you always have a master
+to return to);
+- Creating other language versions;
+- Messing with someone else's code; and
+- Adapting a pre-existing project.
