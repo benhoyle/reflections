@@ -32,3 +32,12 @@ to return to);
 - Creating other language versions;
 - Messing with someone else's code; and
 - Adapting a pre-existing project.
+
+[Context switching when working with yourself - have branches for bug_fixing,
+new_feature_X, experimental_changes etc. Switching branches allows context
+switching.]
+
+How do the diagrams help you visualize the branch structure?
+
+Visualising the branches as trees help you locate yourself. It also
+helps identify unreachable nodes.
