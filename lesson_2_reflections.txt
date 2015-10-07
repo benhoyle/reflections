@@ -14,3 +14,10 @@ It is an intermediate stage that is added to the repository as part of a
  commit. You add files to the staging area using 'git add'. It is useful
  as it allows control over which files are commited. This may have security
  benefits and may be useful in logically separating changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use 'git add' to only add files to the staging area that are related 
+to the logical change. Files that are not related to the logical change may
+be left out of the staging area but may still be changed in the working
+directory.
