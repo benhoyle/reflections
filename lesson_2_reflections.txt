@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The Git configuration/system files are created and the folder begins to be 
+treated as a new Git repository. No commits are present though. You
+can run 'git status' to check the current status of the newly initialized
+repository.
+
+You need to do this so that Git can start tracking your files.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+It is an intermediate stage that is added to the repository as part of a 
+ commit. You add files to the staging area using 'git add'. It is useful
+ as it allows control over which files are commited. This may have security
+ benefits and may be useful in logically separating changes.
