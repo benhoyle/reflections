@@ -41,3 +41,11 @@ How do the diagrams help you visualize the branch structure?
 
 Visualising the branches as trees help you locate yourself. It also
 helps identify unreachable nodes.
+
+What is the result of merging two branches together? Why do we represent
+ it in the diagram the way we do?
+
+The result of merging is that the additions and deletions of each branch are
+combined. Whichever branch is currently checked out will have the named
+branch in the merge command merged into it (make sure master is checked out
+if merging into a master branch).
