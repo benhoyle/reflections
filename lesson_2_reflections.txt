@@ -49,3 +49,9 @@ The result of merging is that the additions and deletions of each branch are
 combined. Whichever branch is currently checked out will have the named
 branch in the merge command merged into it (make sure master is checked out
 if merging into a master branch).
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is much faster than manual merging and allows changes to be
+quickly incorporated into experimental branches. Manual merging is needed when
+conflict arise - then it is better for a humna to review and make the required updates.
