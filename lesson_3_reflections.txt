@@ -31,3 +31,10 @@ repository on your local machine.
 without modifying the original forked files. Instead the forked repository
 is cloned, i.e. a copy is create on GitHub's servers but under your 
 account.
+
+What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+
+If you do not have internet access you can still look at the remote 
+changes and merge them with your own edits. When you are able to connect
+again all you need do is push to the remote.
