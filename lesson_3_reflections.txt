@@ -52,3 +52,22 @@ change.
 Without Git or GitHub collaboration would be much harder. It would be 
 difficult to keep track of changes and exchanging files would be 
 problematic. Using these tools makes the process much easier. 
+
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+
+Separate branches are good for:
+- new features that replace or modify old features;
+- anything that may break the code;
+- controversial changes (e.g. changes where at least one other user may
+disagree); and
+- changes in functionality that modifies original code.
+
+Making changes directly in master is useful for:
+- bug fixes;
+- documentation;
+- changes that everyone would agree with; and
+- independent new features that are part of an agreed roadmap / request.
+
+Using separate branches and the GitHub workflow allows for agreement on
+changes and discussion before production code is modified. 
