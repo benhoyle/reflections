@@ -12,3 +12,22 @@ It may be useful if another user makes changes to a remote repository
 that you do not want to apply locally. For example, you may be working on
 a branch locally and you do not want this to be overwritten with changes
 from the remote branch.
+
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+
+A branch is a set of one or more commits that differ from another set
+of one or more commits (e.g. a master branch). You manually create a 
+branch by using the 'git branch [new-branch]' command. You can then
+switch between branches by using the 'git checkout [desired-branch]' 
+command.
+
+'Cloning' is the process of making a copy of a repository. Typically, this
+is a remote repository. Cloning a repository creates a copy of the
+repository on your local machine.
+
+'Fork' refers to the process of cloning a repository on Github's servers.
+'Forking' a repository allows you to refer back to the forked repository
+without modifying the original forked files. Instead the forked repository
+is cloned, i.e. a copy is create on GitHub's servers but under your 
+account.
