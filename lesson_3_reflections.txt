@@ -38,3 +38,17 @@ remote stored locally?
 If you do not have internet access you can still look at the remote 
 changes and merge them with your own edits. When you are able to connect
 again all you need do is push to the remote.
+
+How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+
+Without using Git or GitHub you would need to somehow send your updated 
+code to the collaborators. You could put it in a shared directory, email
+the code or put it on a USB stick. The recipient would then need to 
+extract your code, work out how it differs from their existing code and
+email you back with comments, referencing the lines of code they wish to
+change. 
+
+Without Git or GitHub collaboration would be much harder. It would be 
+difficult to keep track of changes and exchanging files would be 
+problematic. Using these tools makes the process much easier. 
